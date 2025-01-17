@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CoreWebAPI\\CoreWebAPI\\CoreWebAPI.csproj": {}
+    "E:\\Dot-Net-Core-Exception-Filter-and-Custom-Middleware\\CoreWebAPI\\CoreWebAPI.csproj": {}
   },
   "projects": {
-    "E:\\CoreWebAPI\\CoreWebAPI\\CoreWebAPI.csproj": {
+    "E:\\Dot-Net-Core-Exception-Filter-and-Custom-Middleware\\CoreWebAPI\\CoreWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CoreWebAPI\\CoreWebAPI\\CoreWebAPI.csproj",
+        "projectUniqueName": "E:\\Dot-Net-Core-Exception-Filter-and-Custom-Middleware\\CoreWebAPI\\CoreWebAPI.csproj",
         "projectName": "CoreWebAPI",
-        "projectPath": "E:\\CoreWebAPI\\CoreWebAPI\\CoreWebAPI.csproj",
+        "projectPath": "E:\\Dot-Net-Core-Exception-Filter-and-Custom-Middleware\\CoreWebAPI\\CoreWebAPI.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\CoreWebAPI\\CoreWebAPI\\obj\\",
+        "outputPath": "E:\\Dot-Net-Core-Exception-Filter-and-Custom-Middleware\\CoreWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

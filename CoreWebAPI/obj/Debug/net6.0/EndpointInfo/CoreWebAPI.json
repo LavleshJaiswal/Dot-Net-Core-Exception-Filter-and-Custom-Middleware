@@ -29,7 +29,7 @@
         }
       }
     },
-    "/api/Home/student-regietr": {
+    "/api/Home/student-register": {
       "post": {
         "tags": [
           "Home"
@@ -104,23 +104,24 @@
     "schemas": {
       "Students": {
         "required": [
-          "studentName"
+          "mobileno",
+          "name"
         ],
         "type": "object",
         "properties": {
-          "studentName": {
+          "name": {
             "minLength": 1,
             "type": "string"
           },
-          "mobileNo": {
-            "type": "string",
-            "nullable": true
+          "mobileno": {
+            "minLength": 1,
+            "type": "string"
           },
           "address": {
             "type": "string",
             "nullable": true
           },
-          "dob": {
+          "dbo": {
             "type": "string",
             "format": "date-time"
           }
