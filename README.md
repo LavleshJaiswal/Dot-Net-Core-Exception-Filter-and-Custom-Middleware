@@ -1,46 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dot Net Core Exception Filter and Middleware</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        h1 {
-            color: #007ACC;
-        }
-        h2 {
-            color: #005C99;
-        }
-        pre {
-            background-color: #f4f4f4;
-            border-left: 4px solid #007ACC;
-            padding: 10px;
-            overflow-x: auto;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-        code {
-            background-color: #eee;
-            padding: 2px 4px;
-            font-family: Consolas, monospace;
-            color: #c7254e;
-        }
-        .note {
-            background-color: #e7f3fe;
-            border-left: 4px solid #2196F3;
-            padding: 10px;
-            margin-top: 20px;
-        }
-    </style>
-</head>
+ 
+       
 <body>
     <h1>Dot Net Core Exception Filter and Custom Middleware</h1>
     <h2>Steps to Implement Exception Filter</h2>
