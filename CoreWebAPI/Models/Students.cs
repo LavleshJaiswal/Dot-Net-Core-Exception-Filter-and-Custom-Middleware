@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
-using CoreWebAPI.CustomValidation;
+﻿
 
 namespace CoreWebAPI.Models;
 
@@ -18,4 +16,13 @@ public class Students
     public DateTime DOB { get; set; }
 
 }
+
+public class Manage
+{
+    [Required]
+    public string Name { get; set; }
+    [Required(ErrorMessage ="Email field is required")]
+    public string Email { get; set; }
+}
+
 

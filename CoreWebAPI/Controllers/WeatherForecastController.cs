@@ -1,6 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
 namespace CoreWebAPI.Controllers;
-
 [ApiController]
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase

@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Filters;
-
+﻿
 namespace CoreWebAPI.Filters;
 public class CustomExceptionFilter : IAsyncExceptionFilter
 {
@@ -16,7 +14,7 @@ public class CustomExceptionFilter : IAsyncExceptionFilter
             Details = exception.Message
         };
 
-        context.Result = new ObjectResult(respoinse);
+        context.Result = new BadRequestObjectResult(respoinse);
         context.ExceptionHandled = true;
         return Task.CompletedTask;
     }
