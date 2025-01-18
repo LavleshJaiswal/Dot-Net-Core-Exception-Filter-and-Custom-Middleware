@@ -1,11 +1,10 @@
-﻿namespace CoreWebAPI.Helper
+﻿namespace CoreWebAPI.Helper;
+
+public class ResponseHelper
 {
-    public class ResponseHelper
-    {
-        public string Message { get; set; }
-        public int StatusCode { get; set; }
+    public string Message { get; set; }
+    public int StatusCode { get; set; }
 
-        public ResponseHelper() { }
+    public ResponseHelper() { }
 
-    }
 }
