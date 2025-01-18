@@ -3,9 +3,7 @@
 
  
 <body>
-    <header>
         <h1>Dot Net Core: Exception Filters, Model Validation, and Middleware</h1>
-    </header>
 
     <div class="container">
         <h2>Steps to Implement Exception Filter</h2>
