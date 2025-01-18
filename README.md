@@ -23,5 +23,4 @@ Steps to Implement Exception Filter
                 Start the application and invoke an endpoint where an exception occurs.
                 Verify that the custom error response is returned instead of the default error page.
 
-
-2. Globally Model Validation
+ 
