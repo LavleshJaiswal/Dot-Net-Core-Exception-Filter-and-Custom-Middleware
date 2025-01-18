@@ -42,5 +42,8 @@ public IActionResult GetTotalCal()
     <div class="note">
         <strong>Note:</strong> For centralized exception handling across all endpoints, consider combining Exception Filters with Custom Middleware for a complete solution.
     </div>
+ 
+    <h2>Steps to Implement Global Model Validation </h2>
+ 
 </body>
 </html>
