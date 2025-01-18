@@ -1,7 +1,7 @@
 # Dot-Net-Core-Exception-Filter-and-Custom-Middleware
 Create Exception Filter, Custom Middleware,and Globally model validation handler in Dot net 6.
 Steps to Implement Exception Filter
-1. Create a Custom Exception Filter
+1. Create a Custom Exception Filter<br>
         Exception Filter: Create a custom class that implements the IExceptionFilter interface from Microsoft.AspNetCore.Mvc.Filters
         i. Register the Filter Globally
            To apply the filter globally, you can register it in the Program.cs file, depending on the structure of your project.
