@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
- 
+   
 <body>
-        <h1>Dot Net Core: Exception Filters, Model Validation, and Middleware</h1>
+    <h1>Dot Net Core: Exception Filters, Model Validation, and Middleware</h1>
 
     <div class="container">
         <h2>Steps to Implement Exception Filter</h2>
@@ -18,7 +17,7 @@
                 <pre>
 builder.Services.AddControllers(options =>
 {
-    options.Filters.Add&lt;CustomExceptionFilter&gt;();
+    options.Filters.Add<CustomExceptionFilter>();
 });
                 </pre>
             </li>
@@ -26,7 +25,8 @@ builder.Services.AddControllers(options =>
                 <strong>Apply the Filter to Specific Controllers or Actions (Optional)</strong><br>
                 Use <code>[ServiceFilter]</code> or <code>[TypeFilter]</code> for specific actions:
                 <pre>
-[HttpGet, Route("gettotal-cal")]
+[HttpGet]
+[Route("gettotal-cal")]
 [TypeFilter(typeof(CustomExceptionFilter))]
 public IActionResult GetTotalCal()
 {
@@ -59,7 +59,7 @@ public IActionResult GetTotalCal()
                 <pre>
 builder.Services.AddControllers(options =>
 {
-    options.Filters.Add&lt;ValidateModelFilter&gt;();
+    options.Filters.Add<ValidateModelFilter>();
 });
                 </pre>
             </li>
@@ -77,7 +77,7 @@ public class SampleController : ControllerBase
                 </pre>
                 Ensure the filter is registered:
                 <pre>
-builder.Services.AddScoped&lt;ValidateModelFilter&gt;();
+builder.Services.AddScoped<ValidateModelFilter>();
                 </pre>
             </li>
             <li>
@@ -91,5 +91,4 @@ builder.Services.AddScoped&lt;ValidateModelFilter&gt;();
         </ol>
     </div>
 </body>
-
 </html>
