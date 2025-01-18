@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dot Net Core: Exception Filters, Model Validation, and Middleware</title>
-    <style>
+<body>
+     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -46,8 +43,6 @@
             margin-left: 20px;
         }
     </style>
-</head>
-<body>
     <h1>Dot Net Core: Exception Filters, Model Validation, and Middleware</h1>
 
     <div class="container">
